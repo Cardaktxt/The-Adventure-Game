@@ -1,0 +1,46 @@
+h1,
+p,
+div {
+  text-align: center;
+}
+h1 {
+  margin: 5rem auto;
+  font-size: 3rem;
+  border-bottom: 5px solid white;
+  padding-bottom: 15px;
+  width: fit-content;
+}
+p {
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 60%;
+  gap: 5%;
+  margin: auto;
+}
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 5rem;
+  font-size: 30px;
+  color: whitesmoke;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+  box-shadow: 0 0 15px 5px rgb(255, 217, 0);
+  background-color: rgb(255, 217, 0);
+  color: #1e1e1e;
+}

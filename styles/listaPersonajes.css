@@ -1,0 +1,112 @@
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    width: fit-content;
+    margin: 2rem auto;
+    border-bottom: 2px solid white;
+}
+
+.personajes {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 4rem;
+    margin: 5rem auto;
+}
+
+.cajaPersonaje {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+}
+
+.cajaDato {
+    display: flex;
+    border: 3px solid white;
+    border-radius: 1rem;
+    height: 100%;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+.cajaDatos {
+    display: grid;
+    grid-template-columns: 4fr 1fr 3fr;
+    border: 3px solid white;
+    border-radius: 1rem;
+    height: 100%;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+.cajaDatos span {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.separacion {
+    background-color: white;
+    height: 100%;
+    width: 5px;
+    rotate: 45deg;
+}
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    padding: 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    rotate: 45deg;
+    transition: 0.3s;
+}
+
+.iconoBtMas {
+    height: 80%;
+    width: 80%;
+    rotate: 45deg;
+}
+.iconoBtEliminar {
+    height: 70%;
+    width: 70%;
+    rotate: -45deg;
+}
+.iconoBtJugar {
+    height: 70%;
+    width: 70%;
+    translate: 4px -4px;
+    rotate: -45deg;
+}
+.jugar {
+    background-color: rgba(7, 177, 109, 0);
+}
+
+.crear {
+    background-color: rgba(172, 255, 47, 0);
+}
+.eliminar {
+    background-color: rgba(255, 46, 46, 0);
+}
+
+.jugar:hover {
+    background-color: rgb(7, 177, 109);
+    box-shadow: 0 0 10px 5px rgb(7, 177, 109);
+}
+.crear:hover {
+    background-color: rgb(153, 255, 0);
+    box-shadow: 0 0 10px 5px rgba(153, 255, 1, 0.574);
+}
+.eliminar:hover {
+    background-color: rgb(255, 46, 46);
+    box-shadow: 0 0 10px 5px rgba(255, 46, 46, 0.5);
+}

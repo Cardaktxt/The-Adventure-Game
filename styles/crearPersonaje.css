@@ -1,0 +1,134 @@
+.contenedor {
+    width: 50%;
+    margin: 2.5rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    border-bottom: 5px solid white;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 10px 0;
+}
+label,
+h3 {
+    font-weight: 100;
+    font-size: x-large;
+    margin: 1rem 0;
+    margin-top: 2rem;
+}
+input {
+    font-family: "Virgil";
+    height: 1.5rem;
+    font-size: larger;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.generos {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.genero {
+    height: 5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: none;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.genero img {
+    height: 80%;
+}
+.genero p {
+    font-family: "Virgil";
+}
+
+.clases {
+    margin: 1rem auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.clase img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.estadistica {
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    color: #1e1e1e;
+    width: 150px;
+    gap: 10px;
+    height: 3rem;
+    margin: 10px;
+    padding: 5px;
+}
+p {
+    font-size: large;
+}
+#btCrear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    background: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 2rem 0;
+    width: 80%;
+    margin: auto;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+#btCrear:hover {
+    background-color: whitesmoke;
+    color: #1e1e1e;
+    box-shadow: 0 0 10px 5px gray;
+}
+
+.gSelect {
+    background-color: darkcyan;
+}
+
+.claseSelect {
+    background-color: indigo;
+}
+.claseNoSelect {
+    background-color: none;
+}

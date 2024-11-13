@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Virgil";
+    src: url(../fonts/Virgil.woff2) format("truetype");
+}
+body {
+    font-family: "Virgil", sans-serif;
+    background-color: #1e1e1e;
+    color: whitesmoke;
+    margin: 0;
+}

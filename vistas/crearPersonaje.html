@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/crearPersonaje.css">
+    <title>The Adventure Game | Crear Personaje</title>
+</head>
+
+
+<body>
+    <div class="contenedor">
+        <h2>Crearcion de Personaje</h2>
+
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="nombre" name="Nombre" placeholder="Jon Doe">
+
+        <h3>Genero</h3>
+
+        <div class="generos">
+            <button class="genero" id="M">
+                <img src="../img/marte.png" alt="Hombre">
+                <p>Masculino</p>
+            </button>
+            <button class="genero" id="F">
+                <img src="../img/venus.png" alt="Mujer">
+                <p>Femenino</p>
+            </button>
+            <button class="genero" id="O">
+                <img src="../img/pregunta-del-circulo-de-personas (1).png" alt="No se Identifica">
+                <p>Otra Wea</p>
+            </button>
+        </div>
+
+        <h3>Clases</h3>
+
+        <div class="clases">
+
+            <div class="clase">
+                <img id="cl1"></img>
+                <p>Guerrero</p>
+            </div>
+
+            <div class="clase">
+                <img id="cl2"></img>
+                <p>Mago</p>
+            </div>
+
+            <div class="clase">
+                <img id="cl3"></img>
+                <p>Asesino</p>
+            </div>
+
+            <div class="clase">
+                <img id="cl4"></img>
+                <p>Guardian</p>
+            </div>
+
+        </div>
+
+
+        <h3>Estadisticas</h3>
+
+        <div class="estadisticas">
+
+            <div class="es_izquierda">
+
+                <div class="estadistica">
+                    <p>Vida:</p>
+                    <p id="es_vida">N/A</p>
+                </div>
+
+                <div class="estadistica">
+                    <p>Daño: </p>
+                    <p id="es_daño">N/A</p>
+                </div>
+
+                <div class="estadistica">
+                    <p>Mana: </p>
+                    <p id="es_mana">N/A</p>
+                </div>
+
+            </div>
+
+            <div class="es_derecha">
+
+                <div class="estadistica">
+                    <p>Agilidad:</p>
+                    <p id="es_agilidad">N/A</p>
+                </div>
+                <div class="estadistica">
+                    <p>Defensa:</p>
+                    <p id="es_defensa">N/A</p>
+                </div>
+                <div class="estadistica">
+                    <p>Suerte: </p>
+                    <p id="es_suerte">N/A</p>
+                </div>
+
+            </div>
+
+        </div>
+        <button id="btCrear">Crear</button>
+    </div>
+    <script type="module" src="../scripts/crearPersonaje.js"></script>
+</body>
+
+</html>
